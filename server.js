@@ -8,7 +8,7 @@ const app = express()
 
 
 const options = {
-    pfx: fs.readFileSync('../certificate/serviceapp.p12'),
+    pfx: fs.readFileSync('./certificate/serviceapp.p12'),
     passphrase: process.env.SSL_KEY
 };
 
